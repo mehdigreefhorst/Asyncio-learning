@@ -49,3 +49,8 @@ Network I/O, whether your program is acting as the server or the client
 Serverless designs, such as a peer-to-peer, multi-user network like a group chat
 Read/write operations where you want to mimic a fire-and-forget style approach without worrying about holding a lock on the resource
 The biggest reason not to use async I/O is that await only supports a specific set of objects that define a particular set of methods. For example, if you want to do async read operations on a certain database management system (DBMS), then you’ll need to find a Python wrapper for that DBMS that supports the async and await syntax.
+
+
+---
+References of learning page: 
+https://realpython.com/async-io-python/#a-first-look-at-async-iok
